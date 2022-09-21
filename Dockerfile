@@ -1,3 +1,4 @@
 FROM openjdk:12-alpine
-
-CMD [ "java","-jar", "PROJECT_E_COMERSE_AmigoTech-0.0.1-SNAPSHOT.jar" ]
+ADD demo.jar demo.jar
+CMD [ "java","-jar", "demo.jar" ]
+#Dont Forget to change Project jar file to demo.jar
